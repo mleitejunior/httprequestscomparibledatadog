@@ -18,6 +18,7 @@ public class OkHttpClientImpl {
 
         try (Response response = client.newCall(request).execute()) {
 //            System.out.println("OkHttpClient statusCode: " + response.code());
+//            System.out.println("OkHttpClient body: " + response.body().string());
         }
     }
 }
